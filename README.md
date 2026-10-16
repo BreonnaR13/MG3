@@ -1,7 +1,7 @@
 # MG3
 ## Devlog
 
-1.The default value for floats is 0. The default value for ints are also 0. The default values for bools are false. The default value for strings is an empty string.
+1. The default value for floats is 0. The default value for ints are also 0. The default values for bools are false. The default value for strings is an empty string.
 
 2. The Update method gets called in the code automatically and does not need to be called manually. The Update method gets called once every frame.
 
