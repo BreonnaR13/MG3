@@ -5,11 +5,11 @@ public class KickWeapon : MonoBehaviour
     [SerializeField] private float _lifetimeSeconds;
     [SerializeField] private Timer _lifeTimer;
 
+
     // ------------------------------------------------------------------------
     public void ActivateKick()
     {
         gameObject.SetActive(true);
-
         // STEP 6 -------------------------------------------------------------
         // In addition to accessing member variables from an object with '.',
         //      we can also call methods.
