@@ -17,7 +17,7 @@ public class KickWeapon : MonoBehaviour
         //      to the method in order to start our timer with the number
         //      of seconds that _lifetimeSeconds is set to.
 
-        //_lifeTimer.BeginTimer(_lifetimeSeconds);
+        _lifeTimer.BeginTimer(_lifetimeSeconds);
 
         // STEP 6 -------------------------------------------------------------
     }
