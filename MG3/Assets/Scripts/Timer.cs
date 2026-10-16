@@ -67,12 +67,11 @@ public class Timer : MonoBehaviour
     //      variable is out of time.
     // Other classes can CALL this method to check if the timer is up.
     // It should be public, and has no input.
-    bool IsFinished(float currentTimeLeft){
-       if (currentTimeLeft <= 0){
+    public bool IsFinished(){
+       if (timeLeft <= 0){
             return true;
-       } else{
-            return false;
        }
+       return false;
     }
     // STEP 5 -----------------------------------------------------------------
 }
